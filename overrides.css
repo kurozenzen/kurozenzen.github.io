@@ -1,0 +1,108 @@
+html,
+body {
+    height: 100%;
+    padding: 0px !important;
+}
+
+div {
+    margin: 0px !important;
+}
+
+header,
+footer,
+main {
+    padding-inline-start: 20px;
+    padding-inline-end: 20px;
+    padding-block-end: 10px;
+    padding-block-start: 10px;
+}
+
+main {
+    background-color: #111111;
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+}
+
+.filler {
+    flex: 2;
+}
+
+.centered {
+    text-align: center;
+}
+
+.black {
+    background-color: black !important;
+    color: white !important;
+}
+
+.gray {
+    background-color: #222222;
+}
+
+h1,
+h2,
+h3,
+p {
+    margin: 0px !important;
+}
+
+.entry {
+    padding: 5px;
+    background: black;
+    color: white;
+    border: black;
+}
+
+.entry p {
+    padding-inline-start: 5px;
+}
+
+.entry:not(:last-of-type) {
+    border-block-end: #222222 solid 2px !important;
+}
+
+.faded {
+    color: #555555 !important;
+}
+
+a:focus,
+a:active,
+a:hover {
+    background-color: #222222 !important;
+}
+
+.list {
+    padding-block-start: 10px;
+    padding-block-end: 10px;
+}
+
+.btn-red {
+    background-color: black;
+    color: red;
+    border: red thin solid;
+}
+
+a:link,
+a,
+a:visited {
+    color: red;
+}
+
+b {
+    color: red;
+}
+
+.btn-red:hover {
+    -webkit-transition: color 0.3s linear;
+    -moz-transition: color 0.3s linear;
+    -ms-transition: color 0.3s linear;
+    -o-transition: color 0.3s linear;
+    transition: color 0.3s linear;
+    color: black;
+    background-color: red !important;
+    cursor: pointer;
+}
