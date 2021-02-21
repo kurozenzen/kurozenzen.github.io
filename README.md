@@ -1,2 +1,3 @@
 # kurozenzen.github.io
-Index Site 
+
+=> https://kurozenzen.github.io/
